@@ -1,1 +1,9 @@
-# SistemasCorporativos
+# Sistemas Corporativos
+
+# Integrantes
+
+- Arthur da Silva Bassani
+- Rafael Vier
+- José Henrique Metzdorf
+- João Vitor Faccin
+- Giovane Aguirre
