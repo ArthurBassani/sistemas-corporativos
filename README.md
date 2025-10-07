@@ -3,7 +3,7 @@
 # Integrantes
 
 - Arthur da Silva Bassani
-- Rafael Vier
+- Rafael Vier Alberton
 - José Henrique Metzdorf
 - João Vitor Faccin
 - Giovane Aguirre
