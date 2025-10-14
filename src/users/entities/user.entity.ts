@@ -6,12 +6,7 @@ import {
   CreateDateColumn,
   UpdateDateColumn,
 } from "typeorm";
-
-export enum UserRole {
-  ADMIN = "admin",
-  RECRUITER = "recruiter",
-  CANDIDATE = "candidate",
-}
+import { UserRole } from "../domain/user-role.enum";
 
 @Entity({ name: "users" })
 @Index(["email", "cpf"], { unique: true })
@@ -45,4 +40,8 @@ export class User {
 
   @UpdateDateColumn({ name: "updated_at" })
   updatedAt!: Date;
+
+  constructor(partial: Partial<User>) {
+    Object.assign(this, partial);
+  }
 }
